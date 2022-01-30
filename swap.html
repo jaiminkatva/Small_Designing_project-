@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <!-- javascript -->
+    <script>
+        function swap() {
+            var a = parseInt(frm.txt1.value);
+            var b = parseInt(frm.txt2.value);
+            var temp = a;
+            a = b;
+            b = temp;
+            frm.txt1.value = a;
+            frm.txt2.value = b;
+        }
+    </script>
+    <link rel="stylesheet" href="style1.css">
+
+</head>
+<!-- html form -->
+
+<body>
+    <center>
+        <h1>Swep the Value</h1>
+        <hr><br>
+        <form name="frm">
+            Value of a :
+            <input type="text" name=txt1>
+            <br> Value of b :
+            <input type="text" name="txt2">
+            <br><br>
+            <input type="button" value="Click me!" onclick="swap()">
+            <a href="dashbord.html">BACK</a>
+        </form>
+    </center>
+</body>
+
+</html>

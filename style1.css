@@ -1,0 +1,33 @@
+/* this overall css for anchor teg and input button tag */
+
+a:link,
+a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: green;
+    color: white;
+}
+
+input[type=button] {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+input[type=button]:hover {
+    background-color: green;
+    color: white;
+}
